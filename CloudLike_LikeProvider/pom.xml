@@ -17,7 +17,7 @@
     </dependency>
     <dependency>
         <groupId>com.zhang.cloudlike</groupId>
-        <artifactId>CloudLike_Common</artifactId>
+        <artifactId>CloudLike  _Common</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
@@ -55,11 +55,11 @@
         <artifactId>redisson</artifactId>
         <version>3.13.4</version>
     </dependency>-->
-    <dependency>
+    <!--<dependency>
         <groupId>com.alibaba.nacos</groupId>
         <artifactId>nacos-client</artifactId>
         <version>1.2.1</version>
-    </dependency>
+    </dependency>-->
 </dependencies>
 
 </project>

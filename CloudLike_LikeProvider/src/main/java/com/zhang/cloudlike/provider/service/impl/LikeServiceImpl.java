@@ -22,7 +22,7 @@ public class LikeServiceImpl implements LikeService {
     @Override
     public R likev1(LikeAddDto dto) {
         //发起点赞
-
+        //参数非法校验
         if (dto !=null && dto.getCid()>0 && dto.getUid()>0){
             //校验是否点赞
             Like like = dao.querySingle(dto);
@@ -40,7 +40,7 @@ public class LikeServiceImpl implements LikeService {
                 if (dao.del(dto)>0){
                     return R.ok();
                 }else {
-                    return R.fail("点赞失败");
+                    return R.fail("取消点赞失败");
                 }
             }
         }else{

@@ -18,7 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class RibbonConfig {
     @Bean
     @LoadBalanced//启用负载均衡
-    public RestTemplate createRT(){
+    public RestTemplate createRT() {
         return new RestTemplate();
     }
 

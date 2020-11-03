@@ -19,7 +19,7 @@ public class LikeServiceImpl {
     private RestTemplate restTemplate;
 
    public R dz(LikeAddDto dto){
-       return restTemplate.postForObject("http://LikeProvider/provider/like/dz.do",dto,R.class);
+       return restTemplate.postForObject("http://LikeProvider825/provider/like/dz.do",dto,R.class);
    }
 
     public R all(){

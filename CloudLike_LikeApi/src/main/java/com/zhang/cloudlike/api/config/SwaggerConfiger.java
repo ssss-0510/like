@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfiger {
     private ApiInfo createAI(){
         return new ApiInfoBuilder().title("片场项目的在线接口文档").//设置标题
-                contact(new Contact("Java2004","http://baidu.com","java2004@163.com"))
+                contact(new Contact("Java2004","http://bai  du.com","java2004@163.com"))
                 .version("0.1").description("这是一个在线接口文档，可以直接查看接口的信息并且可以实现接口的测试")
                 .build();
     }
